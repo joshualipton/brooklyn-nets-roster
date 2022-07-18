@@ -19,11 +19,6 @@ body {
     font-weight: 800;
 }
 
-.player-number {
-    font-weight: 800;
-    font-size: 32px;
-}
-
 .player-position {
     font-size: 14px;
 }
@@ -33,9 +28,29 @@ img {
 }
 
 .players {
+    flex: 1;
     display: flex;
     flex-wrap: wrap;
     gap: 15px;
     align-items: center;
     justify-content: center;
+}
+
+.player-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.player-number {
+    font-weight: 800;
+    font-size: 42px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
 }
