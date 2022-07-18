@@ -3,6 +3,9 @@ body {
 }
 
 .header {
+    font-size: 32px;
+    display: flex;
+    justify-content: flex-start;
     color: white;
     font-family: Helvetica-Bold, "Helvetica Neue", Arial, sans-serif;
 }
@@ -32,4 +35,7 @@ img {
 .players {
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
 }
