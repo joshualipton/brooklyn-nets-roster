@@ -1,0 +1,35 @@
+body {
+    background-color: #333333;
+}
+
+.header {
+    color: white;
+    font-family: Helvetica-Bold, "Helvetica Neue", Arial, sans-serif;
+}
+
+.player-container {
+    color: white;
+    font-family: Helvetica-Bold, "Helvetica Neue", Arial, sans-serif;
+}
+
+.player-name {
+    font-weight: 800;
+}
+
+.player-number {
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.player-position {
+    font-size: 14px;
+}
+
+img {
+    background-color: black;
+}
+
+.players {
+    display: flex;
+    flex-wrap: wrap;
+}
