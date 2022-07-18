@@ -2,7 +2,7 @@ body {
     background-color: rgb(23, 27, 28);
     font-family: Helvetica-Bold, "Helvetica Neue", Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    padding-top: 80px;
 }
 
 .head {
@@ -96,4 +96,57 @@ li {
     width: 38px;
     height: auto;
     flex-shrink: 0;
+}
+
+.news {
+    display: flex;
+    color: white;
+    padding: 16px;
+    justify-content: space-around;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    background-color: rgb(50, 50, 50);
+    padding: 16px;
+    gap: 16px;
+    border-radius: 10px;
+}
+
+input, 
+button {
+    height: 40px;
+    font-size: 18px;
+    border-radius: 10px;
+    text-decoration-line: none;
+}
+
+input {
+    padding-left: 8px;
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 147, 204);
+    border-color: rgb(0, 147, 204);
+    color: white;
+    width: 246px;
+}
+
+.news-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.news-header {
+    font-size: 32px;
+    font-weight: 800;
+    height: 55px;
 }
