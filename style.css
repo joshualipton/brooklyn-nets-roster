@@ -1,12 +1,12 @@
 body {
-    background-color: #333333;
+    background-color: rgb(23, 27, 28);
 }
 
-.header {
+.head {
     font-size: 32px;
     display: flex;
-    justify-content: flex-start;
-    color: white;
+    justify-content: center;
+    color: rgb(226, 222, 215);
     font-family: Helvetica-Bold, "Helvetica Neue", Arial, sans-serif;
 }
 
